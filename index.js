@@ -1,5 +1,5 @@
-import characterData from './Battle/data.js'
-import Character from './Battle/Character.js'
+import characterData from './data.js'
+import Character from './Character.js'
 
 function getCatSound(){
 let catSound = new Audio('audiomass-outputcat.mp3')
