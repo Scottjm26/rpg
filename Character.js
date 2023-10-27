@@ -1,4 +1,4 @@
-import { getDiceRollArray, getDicePlaceholderHtml, getPercentage } from '/battle/utils.js'
+import { getDiceRollArray, getDicePlaceholderHtml, getPercentage } from './Battle/utils.js'
 
 function Character(data) {
     Object.assign(this, data)
