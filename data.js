@@ -25,7 +25,7 @@ const characterData = {
     },
     goblin: {
         name: "The Barnabas",
-        avatar: images/barnardcopy.jpg,
+        avatar: "images/barnardcopy.jpg",
         health: 20,
         diceCount: 3,
         currentDiceScore: [],
