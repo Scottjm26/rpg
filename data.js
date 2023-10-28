@@ -1,7 +1,7 @@
 const characterData = {
     hero: {
         name: "Terminator Milo",
-        avatar: "images/terminatormilo.jpg",
+        avatar: '"images/terminatormilo.jpg"',
         health: 60,
         diceCount: 3,
         currentDiceScore: [],
@@ -9,7 +9,7 @@ const characterData = {
     },
     orc: {
         name: "Mcfishy",
-        avatar: "images/fishyfish.jpg",
+        avatar: '"images/fishyfish.jpg"',
         health: 30,
         diceCount: 1,
         currentDiceScore: [],
@@ -17,7 +17,7 @@ const characterData = {
     },
     demon: {
         name: "Lordia",
-        avatar: "images/minipig.jpg",
+        avatar: '"images/minipig.jpg"',
         health: 25,
         diceCount: 2,
         currentDiceScore: [],
@@ -25,7 +25,7 @@ const characterData = {
     },
     goblin: {
         name: "The Barnabas",
-        avatar: "images/barnardcopy.jpg",
+        avatar: '"images/barnardcopy.jpg"',
         health: 20,
         diceCount: 3,
         currentDiceScore: [],

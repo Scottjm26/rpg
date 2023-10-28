@@ -37,6 +37,7 @@ function Character(data) {
     this.getCharacterHtml = function () {
         const { elementId, name, avatar, health, diceCount, Phrase } = this
         const healthBar = this.getHealthBarHtml()
+        console.log(avatar)
         return `
             <div class="character-card">
                 <h4 class="name"> ${name} </h4>
