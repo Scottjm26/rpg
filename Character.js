@@ -1,4 +1,6 @@
 import { getDiceRollArray, getDicePlaceholderHtml, getPercentage } from './utils.js'
+// import characterData from './data.js'
+
 
 function Character(data) {
     Object.assign(this, data)
@@ -39,7 +41,7 @@ function Character(data) {
             <div class="character-card">
                 <h4 class="name"> ${name} </h4>
                 <h4 id ="phrase">${Phrase}</h4>
-                <img class="avatar" src="${avatar}" />
+                <img class="avatar" src='${avatar}' />
                 
                 <div class="health">health: <b> ${health} </b></div>
                 ${healthBar}
