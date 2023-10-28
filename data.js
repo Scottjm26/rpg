@@ -1,7 +1,7 @@
 const characterData = {
     hero: {
         name: "Terminator Milo",
-        avatar: "./images/terminatormilo.jpg",
+        avatar: "./terminatormilo.jpg",
         health: 60,
         diceCount: 3,
         currentDiceScore: [],
@@ -25,7 +25,7 @@ const characterData = {
     },
     goblin: {
         name: "The Barnabas",
-        avatar: "./images/barnardcopy.jpg",
+        avatar: images/barnardcopy.jpg,
         health: 20,
         diceCount: 3,
         currentDiceScore: [],
